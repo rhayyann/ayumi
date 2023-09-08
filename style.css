@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Vithkuqi:wght@400;500;600;700&family=Poppins:wght@100;500;600;700;800;900&family=Syncopate:wght@400;700&family=Titillium+Web:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Vithkuqi:wght@400;500;600;700&family=Poppins:wght@100;500;600;700;800;900&family=Titillium+Web:wght@300;400;600;700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Zen Maru Gothic', sans-serif;    
+} 
+
+.header{
+    background-color: black;
+}
+
+.header .header-wrapper{
+    padding: 300px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header .header-wrapper h1{
+    margin-bottom: 0.3rem;
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+    line-height: 130px;
+}
+
+.header .header-wrapper p{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.photo{
+    background-color: black;
+}
+
+.photo-wrapper{
+    padding: 20px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-wrapper img{
+    width: 1300px;
+}
+
+
+.music{
+    background-color: black;
+}
+
+.music .music-wrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.music .music-wrapper h1{
+    color: white;
+    font-size: 32px;
+}
+
+span{
+    color: red;
+}
+
+.letter{
+    background-color: black;
+    padding: 50px 20%;
+}
+
+.letter .letter-wrapper{
+    border-radius: 30px;
+    background-color: white;
+    padding: 50px 30px;
+}
+
+.letter-wrapper h1{
+    font-size: 40px;
+}
+
+.letter .letter-wrapper p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1025px) {
+    .photo-wrapper img{
+        width: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header .header-wrapper{
+        padding: 300px 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .photo-wrapper img{
+        width: 750px;
+    }
+}
+
+
